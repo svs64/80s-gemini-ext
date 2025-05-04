@@ -1,1 +1,49 @@
+body {
+  background-color: #000000 !important; /* Black background */
+  color: #00ff00 !important; /* Green text */
+}
+
+/* Target input areas */
+input,
+textarea {
+  background-color: #000000 !important;
+  color: #00ff00 !important;
+  border: 1px solid #00ff00 !important;
+}
+
+/* Style links */
+a {
+  color: #00cc00 !important; /* Slightly lighter green for links */
+}
+
+/* Style for message/conversation bubbles. Adjust selectors as needed! */
+div[role="presentation"] { /* This is a GENERAL selector, you'll likely need to refine. */
+  background-color: #081c15 !important;
+  border: 1px solid #00ff00 !important;
+  padding: 10px !important;
+  margin-bottom: 5px !important;
+  border-radius: 4px !important;
+}
+
+/* Monospace font for that classic terminal look */
+body,
+input,
+textarea,
+div[role="presentation"] {
+  font-family: monospace !important;
+}
+
+/* Add styles for buttons. You'll need to inspect Gemini to get the right selectors */
+button {
+  background-color: #081c15 !important;
+  color: #00ff00 !important;
+  border: 1px solid #00ff00 !important;
+  padding: 8px 16px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+}
+
+button:hover {
+  background-color: #003300 !important;
+}
 
