@@ -1,1 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini 80s Retro Theme",
+  "version": "1.0",
+  "description": "Gives Gemini a retro 80s green-on-black theme.",
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "css": ["content.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
 
